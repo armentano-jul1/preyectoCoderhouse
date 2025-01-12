@@ -309,7 +309,7 @@ footer {
 
 @media (max-width: 1024px) {
     .imagen-menu {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en lugar de 3 */
+        grid-template-columns: repeat(2, 1fr); 
     }
     .imagenes{
         grid-template-columns: repeat(2, 1fr);
@@ -376,13 +376,55 @@ footer {
     
   }
 
+
 .nuestroCafe{
-    display: flex;
-    border:rgb(200, 180, 40) ;
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    
+    padding: 30px; 
+    margin: 30px auto; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+    align-items: center;
+    max-width: 1200px;
 }
+
+.img-nosotros {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.nuestroCafe p {
+    font-size: 1rem; 
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0; 
+    color: #333; 
+}
+
+.img-nosotros {
+    width: 100%;
+    height: auto;
+
+}
+
+.nuestroCafe p {
+    font-size: 1rem; 
+    text-align: justify;
+    padding: 0;
+    max-height: 400px; 
+   color: aliceblue;
+   
+}
+
+.tituloNosotros{
+    border-top: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(200, 180, 40) ;
+    padding: 10px;
+}
+
 
  
