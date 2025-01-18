@@ -1,0 +1,68 @@
+.imagen-menu {
+
+    display: flex;
+   justify-content: center ;
+   margin: 50px 50px;
+  
+   
+}
+
+.imagen-juntas {
+
+    margin-right: 50px;
+   border-style: solid;
+   border-width: 5px;
+   border-color: antiquewhite;
+   display: block;
+
+
+    
+   
+} 
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.cafeteria{
+    background-image: url(../img/WhatsApp\ Image\ 2024-11-27\ at\ 12.41.15.jpg);
+    width: auto !important;
+    height: 400px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-align: center !important;
+    background-repeat: no-repeat !important;
+  
+}
+
+.imagenes img {
+    width: 80%; /* ocupan casi todo el espacio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+    margin-top: 20px;
+}
+
+.imagen-menu img {
+    width: 100% !important; 
+    max-width: 300px !important; 
+    height: 400px !important; 
+    object-fit: cover !important; 
+    border-radius: 10px !important;
+    margin: 0 auto !important; 
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 490px;
+    width: 100%;
+    
+  }
+
+  .img-nosotros {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

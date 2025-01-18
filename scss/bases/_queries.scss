@@ -1,0 +1,64 @@
+/* responsive */
+
+/*responsive tablets*/
+
+@media (max-width: 1024px) {
+    .imagen-menu {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .imagenes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+}
+ 
+
+/*RESPONSIVE CELULAR */
+
+@media (max-width :768px){
+    .imagen-menu{
+        grid-template-columns: 1fr;
+    }
+    .imagenes{
+        grid-template-columns: 1fr;
+    }
+    
+
+
+    form {
+        width: 80%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;  
+       
+    }   
+
+    h1, h2, h3 {
+    font-size: 18px;  /* para que el texto se haga mas chico */
+    }
+
+}
+
+/* RESPONSIVE: PC, defini poco ya que esto se diseño principalmente para compu */
+@media (min-width: 1025px) {
+    .imagen-menu {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .imagenes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

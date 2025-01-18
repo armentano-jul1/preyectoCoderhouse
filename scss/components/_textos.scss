@@ -1,0 +1,37 @@
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(52, 50, 50); /* Fondo oscuro */
+    border: 3px solid rgb(248, 226, 49); /* Bordes dorados */
+    color: white; /* Texto blanco para visibilidad */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box; /* Incluye padding dentro del ancho */
+
+    
+}
+.nuestroCafe p {
+    font-size: 1rem; 
+    text-align: justify;
+    padding: 0;
+    max-height: 400px; 
+   color: aliceblue;
+   
+}
+
+.tituloNosotros{
+    border-top: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(200, 180, 40) ;
+    padding: 10px;
+}
+
+.nosotros {
+    text-align: left;
+}
+
+.compartir {
+    text-align: right;
+   
+}

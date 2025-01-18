@@ -1,0 +1,88 @@
+.grid-galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
+   
+ }
+
+ .imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    
+ }
+
+ .grid-item h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+    border:rgb(200, 180, 40) ;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+ }
+
+
+ .grid-galeria img {
+    width: 100%; 
+    max-width: 300px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "cafes cafes cafes"
+        "infusiones infusiones infusiones"
+        "combos combos combos"
+        "panaderia panaderia panaderia"
+        "footer footer footer";
+    grid-template-rows: auto auto auto auto auto;
+    gap: 20px;
+    justify-items: center;
+    
+}
+.grid-item:nth-child(1) { /* tienen numeros por que seleccionan los hijos del contenedor*/
+    grid-area: cafes;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: infusiones;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: combos;
+}
+
+.grid-item:nth-child(4){
+    grid-area:panaderia ;
+}
+
+.nosotros1{
+    display: flex;
+}
+
+
+.imagen-menu{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 15px !important;
+    justify-items: center;
+    margin-bottom: 200px;
+   
+}
+.nuestroCafe{
+    padding: 30px; 
+    margin: 30px auto; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+    align-items: center;
+    max-width: 1200px;
+}
