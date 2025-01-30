@@ -1,15 +1,15 @@
 body { 
-    background-color: black !important;
+    background-color:$black-color !important;
     text-align: center !important;
     margin: 0 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    justify-content: center !important;
-    align-items: center !important;
+    font-family: $font-family !important;
+    @include flex-center;
+   
     
 }
 
 h1, h2, h3 {
-    color: white;
+    color: $white-color;
 }
 
 label {
@@ -21,7 +21,7 @@ label {
 
 a {
     text-decoration: none !important;
-    color: white !important;
+    color: $white-color !important;
 }
 
 .sucursales {

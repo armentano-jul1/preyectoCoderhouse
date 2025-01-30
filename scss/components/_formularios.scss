@@ -2,10 +2,9 @@ form {
     padding: 50px 55px;
     border-radius: 20px;
     text-align: center;
-    background-color: #222; /* Fondo oscuro para el formulario */
+    background-color:$secondary-color;
     width: 900px; /* Tamaño fijo del formulario */
-    box-shadow: 0 0 20px rgba(248, 226, 49, 1); /* Sombra destacada */
-   /* margin-inline: 390px;*/
+    box-shadow: 0 0 20px $primary-color; /* Sombra destacada */
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -18,9 +17,9 @@ form {
 .form1 {
     padding: 50px 55px;
     border-radius: 20px;
-    background-color: #222; /* Fondo oscuro para el formulario */
+    background-color: $secondary-color;
     width: 900px; /* Tamaño fijo del formulario */
-    box-shadow: 0 0 20px rgba(248, 226, 49, 1); /* Sombra destacada */
+    box-shadow: 0 0 20px $primary-color; /* Sombra destacada */
    /* margin-inline: 390px;*/
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +28,7 @@ form {
 }
 
 label{       
-    color: white;
+    color: $white-color;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px; 
