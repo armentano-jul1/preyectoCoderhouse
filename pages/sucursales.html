@@ -10,40 +10,43 @@
     <title>Document</title>
 </head>
 <body>
-    <header><!--encabezado-->
-        
-      <a href="#"><img src="../img/image.png" alt="" class="logo"></a>
-      <nav class="navbar navbar-expand-lg "> <!--producto agregado con bootstrap-->
-        <div class="container-fluid">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+  <header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="../img/image.png" alt="Logo" class="logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/nuestrosproductos.html">productos</a>
+                <a class="nav-link" href="../pages/nuestrosproductos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/sucursales.html">sucursales</a>
+                <a class="nav-link" href="../pages/sucursales.html">Sucursales</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/work.html">trabaja con nosotros</a>
+                <a class="nav-link" href="../pages/work.html">Trabaja con nosotros</a>
               </li>
-
             </ul>
           </div>
         </div>
-      </nav>
-       
-
-    </header> 
+      </div>
+    </nav>
+  </header>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -76,8 +79,10 @@
         <h3>Sendero de los Suspiros 2424, Paraje del Alba, Sierra Encantada.
             
 
-        <a href=""></a>
+        
     </div>
+    
+
 
     <button type="button" class="btn">pedir delivery</button>
     </main>

@@ -1,11 +1,12 @@
-@import "./bases/operaciones";
-@import "./bases/generales";
-@import "./components/footer";
-@import "./bases/queries";
-@import "./components/formularios";
-@import "./components/grid";
-@import "./components/textos";
-@import "./components/imagenes.scss";
+
+@use  "./bases/operaciones" ;
+@use  "./bases/generales";
+@use  "./components/footer";
+@use  "./bases/queries";
+@use  "./components/formularios";
+@use  "./components/grid";
+@use  "./components/textos";
+@use  "./components/imagenes";
 
 
 

@@ -9,38 +9,44 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-      <a href="#"><img src="../img/image.png" alt="" class="logo"></a>
-        <nav class="navbar navbar-expand-lg "> <!--producto agregado con bootstrap-->
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/nuestrosproductos.html">productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/sucursales.html">sucursales</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/work.html">trabaja con nosotros</a>
-                  </li>
-    
-                </ul>
-              </div>
-            </div>
-          </nav>
-           
-    </header> 
-      <h2 class="tituloNosotros">nuestro cafe</h2>
+  <header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="../img/image.png" alt="Logo" class="logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nuestrosproductos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/work.html">Trabaja con nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+     <!--<h2 class="tituloNosotros">nuestro cafe</h2>
         <div class="nuestroCafe">
             <img src="../img/doradocafe.png" alt="" class="img-nosotros">
             <p>
@@ -52,6 +58,8 @@
                 Este café no es solo una bebida, es una expresión de nuestra pasión por la calidad y el respeto por la tradición. Cada sorbo revela sabores únicos que cuentan una historia de dedicación, paciencia y amor por el buen café.
             </p>
         </div>
+
+        
         <h2 class="tituloNosotros">nuestro equipo</h2>
         <div class="nuestroCafe">
           
@@ -60,13 +68,51 @@
              Cada taza de café que servimos es una muestra de nuestra dedicación a la calidad y el buen servicio.</p>
             <img src="../img/cafeDorado (1).jpeg" alt="" class="img-nosotros">
         </div>
+
+
         <h2 class="tituloNosotros">nuestros valores</h2>
         <div class="nuestroCafe">
-          <img src="../img/tazadorada.png" alt="">
+          <img src="../img/tazadorada.png" alt="" class="img-nosotros">
+          <p>En nuestra cafetería, nos guiamos por principios que son fundamentales para todo lo que hacemos. Nos comprometemos a ofrecer solo los mejores granos de café, seleccionados con dedicación y cuidado, asegurando siempre la más alta calidad. Creemos en la sostenibilidad, por eso apoyamos prácticas ecológicas que van desde la elección de nuestros productos hasta el empaque. Además, trabajamos con productores que promueven el comercio justo, garantizando condiciones laborales equitativas. Cada taza que servimos es una expresión de nuestra pasión por el café y el respeto por sus tradiciones. Finalmente, valoramos la comunidad y buscamos crear un ambiente cálido y acogedor, donde todos se sientan bienvenidos y conectados.</p> 
+        </div>--> 
+
+        <section class="nuestroCafe">
+           <div class="bloque">
+            <h2 class="tituloNosotros">titulo 1</h2>
+            <div class="contenido">
+            <img src="../img/doradocafe.png" alt="" class="img-nosotros">
+            <p>
+                Nuestro Café: El Secreto del Café Dorado
+                El Café Dorado es el corazón de nuestra cafetería, una especialidad única que hemos perfeccionado para ofrecer una experiencia extraordinaria en cada taza. Lo que hace especial a nuestro café no es solo su color dorado, sino el proceso artesanal y la dedicación detrás de cada grano.
+
+                Seleccionamos cuidadosamente nuestros granos de café de pequeños productores que practican la agricultura sostenible y el comercio justo. Luego, a través de una fermentación especial y una técnica única de tueste, logramos un café suave y equilibrado, con notas dulces y un brillo dorado que lo distingue.
+
+                Este café no es solo una bebida, es una expresión de nuestra pasión por la calidad y el respeto por la tradición. Cada sorbo revela sabores únicos que cuentan una historia de dedicación, paciencia y amor por el buen café.
+            </p>
+            </div>
+        </div>
+    
+
+    <div class="bloque">
+        <h2 class="tituloNosotros">Título 2</h2>
+        <div class="contenido">
+          <img src="../img/cafeDorado (1).jpeg" alt="" class="img-nosotros">
+          <p>Somos un equipo apasionado por el café y comprometido en ofrecer una experiencia única. Nuestra cafetería nació con el propósito de compartir el sabor de un café excepcional, preparado con el máximo cuidado y respeto por la tradición. Además, nos importa crear un espacio acogedor y amigable, donde todos se sientan como en casa.
+
+            Cada taza de café que servimos es una muestra de nuestra dedicación a la calidad y el buen servicio.</p>
+           
+    </div>
+
+    <div class="bloque">
+        <h2 class="tituloNosotros">Título 3</h2>
+        <div class="contenido">
+          <img src="../img/tazadorada.png" alt="" class="img-nosotros" >
           <p>En nuestra cafetería, nos guiamos por principios que son fundamentales para todo lo que hacemos. Nos comprometemos a ofrecer solo los mejores granos de café, seleccionados con dedicación y cuidado, asegurando siempre la más alta calidad. Creemos en la sostenibilidad, por eso apoyamos prácticas ecológicas que van desde la elección de nuestros productos hasta el empaque. Además, trabajamos con productores que promueven el comercio justo, garantizando condiciones laborales equitativas. Cada taza que servimos es una expresión de nuestra pasión por el café y el respeto por sus tradiciones. Finalmente, valoramos la comunidad y buscamos crear un ambiente cálido y acogedor, donde todos se sientan bienvenidos y conectados.</p>
 
-          
         </div>
+    </div>
+
+        </section>
 
     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

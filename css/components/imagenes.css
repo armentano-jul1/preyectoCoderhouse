@@ -1,9 +1,12 @@
-.imagen-menu {
-  display: flex;
-  justify-content: center;
-  margin: 50px 50px;
-}
+@charset "UTF-8";
+/*.imagen-menu {
 
+
+   justify-content: center ;
+   margin: 50px 50px;
+
+
+}*/
 .imagen-juntas {
   margin-right: 50px;
   border-style: solid;
@@ -13,20 +16,23 @@
 }
 
 .logo {
-  width: 70px;
+  width: 50px;
   height: auto;
 }
 
-.cafeteria {
-  background-image: url(../img/WhatsApp\ Image\ 2024-11-27\ at\ 12.41.15.jpg);
-  width: auto !important;
-  height: 400px !important;
-  background-size: cover !important;
-  background-position: center !important;
-  text-align: center !important;
-  background-repeat: no-repeat !important;
-}
+/*.cafeteria{
+    background-image: url(../img/WhatsApp\ Image\ 2024-11-27\ at\ 12.41.15.jpg);
+    background-size: cover !important;
+    background-position: center !important;
+    text-align: center !important;
+    background-repeat: no-repeat !important;
 
+    width: 100%;
+    min-height: 200px;*/ /* Ajusta según necesites */
+/* display: flex;  
+    align-items: center;  
+    justify-content: center;
+}*/
 .imagenes img {
   width: 80%; /* ocupan casi todo el espacio */
   border-radius: 8px;
@@ -55,6 +61,21 @@
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-principal {
+  /*width: 100%;*/
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+.imagen-principal img {
+  object-fit: cover;
+  display: block;
+}
+
+.ranking {
+  padding-top: 150px;
 }
 
 /*# sourceMappingURL=imagenes.css.map */

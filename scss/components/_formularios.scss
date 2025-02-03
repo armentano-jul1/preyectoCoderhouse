@@ -2,33 +2,22 @@ form {
     padding: 50px 55px;
     border-radius: 20px;
     text-align: center;
-    background-color:$secondary-color;
-    width: 900px; /* Tamaño fijo del formulario */
-    box-shadow: 0 0 20px $primary-color; /* Sombra destacada */
+    background-color: rgb(248, 226, 49);
+    box-shadow: 0 0 20px  rgb(248, 226, 49); /* Sombra destacada */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    border-top: 20px; 
+    margin-top: 200px;
+    border-top: 200px; 
+   
+
    
 }
 
 
 
-.form1 {
-    padding: 50px 55px;
-    border-radius: 20px;
-    background-color: $secondary-color;
-    width: 900px; /* Tamaño fijo del formulario */
-    box-shadow: 0 0 20px $primary-color; /* Sombra destacada */
-   /* margin-inline: 390px;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border-top: 20px;    
-}
 
 label{       
-    color: $white-color;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px; 

@@ -1,64 +1,85 @@
 /* responsive */
-
-/*responsive tablets*/
-
-@media (max-width: 1024px) {
-    .imagen-menu {
-        grid-template-columns: repeat(2, 1fr); 
-    }
-    .imagenes{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    form {
-        width: 80%;
-    }
-
-    .btn {
-        font-size: 15px;
-        padding: 10px 18px;
-    }
-}
- 
-
-/*RESPONSIVE CELULAR */
-
-@media (max-width :768px){
-    .imagen-menu{
-        grid-template-columns: 1fr;
-    }
-    .imagenes{
-        grid-template-columns: 1fr;
-    }
-    
-
-
-    form {
-        width: 80%;
+ @media (min-width:100px){
+    .imagen-menu, .nuestroCafe, .imagenes {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px; 
         padding: 10px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .btn {
-        font-size: 14px;
-        padding: 8px 16px;  
-       
-    }   
-
-    h1, h2, h3 {
-    font-size: 18px;  /* para que el texto se haga mas chico */
+    form {
+        padding: 20px;
+        width: 100%;
+    }
+    nuestroCafe {
+        max-width: 90%;
+        margin: 0 auto;
     }
 
+    .nuestroCafe p {
+        text-align: justify;
+        padding: 10px;
+        line-height: 1.6;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+   
 }
 
-/* RESPONSIVE: PC, defini poco ya que esto se diseño principalmente para compu */
-@media (min-width: 1025px) {
-    .imagen-menu {
-        grid-template-columns: repeat(3, 1fr); 
-    }
 
-    .imagenes {
+ @media (min-width:540px){
+    .imagen-menu{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr) ;
+       gap: 10px;
+       padding: 10px;
+    }
+    form {
+        width: 80%;
+        margin: 30px auto;
+      }
+      .nuestroCafe{
+        grid-template-columns: repeat(1, 
+        1fr) ;  
+      } 
+      .imagenes{
+        grid-template-columns: repeat(2, 
+        1fr) ;
+      }
+        
+ }
+@media (min-width: 900px) { 
+    .imagen-menu {
         grid-template-columns: repeat(3, 1fr);
     }
+    form {
+        width: 700px;
+        margin: 50px auto; 
+      }
+     .imagenes{
+        grid-template-columns: repeat(3, 
+        1fr) ;
+          }   
+     h1, h2, h3 {
+            font-size: 18px;  
+            } 
+     .contenido {
+          display: grid;
+          grid-template-columns: 1fr 1fr; /* Dos columnas: una para la imagen y otra para el texto */
+         align-items: center;
+         gap: 40px;
+        padding: 30px; }
+            
+
 }
+ @media (min-width: 1024px) {
+    .imagen-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ; 
+    }
+}
+
+
+
+
+

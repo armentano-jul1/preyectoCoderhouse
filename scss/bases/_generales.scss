@@ -1,15 +1,17 @@
 body { 
-    background-color:$black-color !important;
-    text-align: center !important;
-    margin: 0 !important;
-    font-family: $font-family !important;
-    @include flex-center;
-   
+    background-color:black;
+    text-align: center ;
+    margin: 0 ;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     
 }
 
 h1, h2, h3 {
-    color: $white-color;
+   color: white;
 }
 
 label {
@@ -21,11 +23,12 @@ label {
 
 a {
     text-decoration: none !important;
-    color: $white-color !important;
+    color: white!important;
 }
 
 .sucursales {
     align-content: center;
+    padding-top: 150px;
 }
 
 .navbar li {
@@ -39,36 +42,25 @@ a {
 .btn {
     font-size: 16px;
     border-radius: 25px;
-    background-color:rgb(248, 226, 49);
+    background-color: rgb(248, 226, 49);
     color: black;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+   margin-top: 50px;
+    margin-bottom: 100px;
    
 
 }
 
 .btn:hover{
-    background-color:  rgb(200, 180, 40);
+    background-color: black;
 }
 
 .nosotros1{
     display: flex;
 }
 
-header {
-    display: flex !important; /*para que el menu se muestre uno al lado de otro)*/
-    justify-content : space-between!important;
-    height: 70px !important;
-    background:linear-gradient(
-        90deg,
-        rgba(0,0,1)0%,
-        rgba(248,226,49,1)80%
-    );
-    padding: 10px;
-    align-items: center !important;
-    height:85px !important;
-    padding:5px  !important;
-   
 
-} 
+
+
